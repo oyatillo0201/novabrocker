@@ -1,3 +1,70 @@
+/* CUSTOM-PROPS */
+:root {
+  --red-color: #eb242a;
+  --heading-color: #272d4e;
+  --text-color: #57606a;
+  --white-color: #fff;
+  --blue-color: #2b9ff3;
+  --black-color: #001A49;
+}
+
+
+/* FONT-FACE */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"),
+  url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.woff2") format("woff2"),
+  url("../fonts/Mulish-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+  url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+  url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2"),
+  url("../fonts/Mulish-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Medium.woff2") format("woff2"),
+  url("../fonts/Mulish-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* GLOBAL */
 html {
   height: 100%;
@@ -17,7 +84,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", "Mulish","Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -32,9 +99,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1528px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
