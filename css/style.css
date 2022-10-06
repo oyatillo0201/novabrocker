@@ -621,3 +621,67 @@ img {
   color: var(--text-color);
 }
 
+
+/* SITE-FOOTER */
+.site-footer {
+  background-color: #272D4E;
+}
+.site-footer__container {
+
+}
+
+.site-footer__top {
+  display: flex;
+  padding-top: 110px;
+  padding-bottom: 81px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--white-color);
+}
+
+.site-footer__logo {
+  margin-right: 173px;
+}
+
+.logo__img {
+  display: block;
+  width: 206px;
+  height: 37px;
+}
+
+.sitenav__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 95px;
+}
+
+.sitenav__link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.3333px;
+  line-height: 27px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.visa__wrapper {
+  margin-left: auto;
+}
+
+.site-footer__text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 31px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--white-color);
+}
