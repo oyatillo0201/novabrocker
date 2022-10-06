@@ -243,8 +243,9 @@ img {
 }
 .cashback__conatiner {
   display: flex;
-  background-color: #f5f5f5;
+  background-color: #FDF4F4;
   padding: 30px 107px 30px 125px ;
+  border-radius: 21px;
 }
 
 .cashback__content {
