@@ -478,3 +478,62 @@ img {
   font-size: 16px;
   line-height: 24px;
 }
+
+
+/* CTA */
+.cta {
+  margin-bottom: 107px;
+  padding-top: 54px;
+  padding-bottom: 42px;
+  background-color: var(--red-color);
+}
+
+.cta__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta__content {
+  width: 100%;
+  max-width: 709px;
+}
+
+.cta__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: var(--white-color);
+}
+.form {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  max-width: 433px;
+  padding-top: 21px;
+  padding-left: 38px;
+  padding-bottom: 20px;
+  box-shadow: inset -2.40556px -2.40556px 4.81111px rgba(255, 255, 255, 0.5), inset 2.40556px 2.40556px 4.81111px rgba(170, 170, 204, 0.25), inset 6.01389px 6.01389px 12.0278px rgba(170, 170, 204, 0.5), inset -6.01389px -6.01389px 12.0278px #FFFFFF;
+  border-radius: 48.1111px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.1377px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #C3C6CB;
+}
+
+.form__img {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
