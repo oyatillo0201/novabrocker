@@ -622,6 +622,83 @@ img {
 }
 
 
+/* ASIGURARE */
+.asigurare {
+}
+
+.new-container {
+  width: 100%;
+  max-width: 1810px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-bottom: 172px; */
+  margin-bottom: 172px;
+  border-radius: 25px 25.1389px 25.1389px 25px;
+  background-color: #f5f5f5;
+}
+
+.asigurare__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1370px;
+  padding-top: 142px;
+  padding-left: 161px;
+  padding-bottom: 237px;
+}
+
+
+.asigurare__content {
+  width: 100%;
+  max-width: 744px;
+
+}
+
+.asigurare__heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65.1815px;
+  line-height: 80px;
+  letter-spacing: -1.17042px;
+  color: var(--heading-color);
+}
+.asigurare__text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.1389px;
+  line-height: 38px;
+  color: var(--text-color);
+}
+
+.asigurare__wrapper-img {
+  position: absolute;
+  top: 116px;
+  right: -31%;
+  width: 872px;
+  height: 532px;
+  display: flex;
+  background-color: var(--heading-color);
+  box-shadow: 0px 47.3173px 65.0612px #818A8C;
+  border-radius: 29.5733px 29.4099px 29.4099px 29.5733px;
+}
+
+.asigurare__img-wrapper {
+  display: block;
+  width: 103px;
+  height: 103px;
+  margin: auto;
+}
+
+
 /* SITE-FOOTER */
 .site-footer {
   background-color: #272D4E;
