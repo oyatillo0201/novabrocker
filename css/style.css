@@ -107,16 +107,24 @@ img {
 }
 
 
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
 /* SITE-HEADER */
 .site-header {
   padding-top: 60px;
   padding-bottom: 60px;
-  /* background-image: url(../img/hero-bg.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: ; */
-
 }
+
 .site-header__container {
   display: flex;
   justify-content: space-between;
@@ -135,11 +143,10 @@ img {
 
 .button {
   position: relative;
-  padding: 12px 31px 12px 66px;
-  display: flex;
-  align-items: center;
+  padding: 13px 31px 13px;
+  width: 100%;
+  max-width: 193px;
   font-family: "Mulish";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -147,12 +154,14 @@ img {
   border: 2px solid var(--red-color);
   border-radius: 33px;
   text-decoration: none;
+  text-align: right;
 }
 
 .button-img {
   display: block;
   position: absolute;
-  left: 0;
+  left: -1px;
+  top: 0px;
   width: 47px;
   height: auto;
 }
@@ -193,6 +202,17 @@ img {
   color: var(--text-color);
   }
 
+.hero__span-text {
+  margin-right: 15px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 137%;
+  color: #94a2b3;
+}
+
 .btn {
   margin-right: 31px;
   padding: 20px 68px;
@@ -224,11 +244,13 @@ img {
   line-height: 40px;
   text-decoration: none;
   color: var(--blue-color);
+  border-bottom: 2px solid #2B9FF3;
 }
 
 .hero__link span {
   color: #94A2B3;
 }
+
 
 /* MAIN-CONTENT */
 .main-content {
@@ -290,9 +312,6 @@ img {
 .features {
   margin-bottom: 120px;
 }
-.features__container {
-
-}
 
 .features__heading {
   width: 100%;
@@ -330,7 +349,7 @@ img {
   content: '';
   width: 284px;
   height: 2px;
-  background-color: red;
+  background-color: #C8C8C8;
   border-radius: 2px;
   display: inline-block;
 }
@@ -357,8 +376,6 @@ img {
   background-color: #fff;
   box-shadow: 0px 12.375px 24.75px rgba(0, 0, 0, 0.11);
 }
-
-
 
 .features__content-heading {
   margin: 0;
@@ -388,8 +405,6 @@ img {
 /* INFORMATION */
 .iformation {
   margin-bottom: 204px;
-}
-.information__container {
 }
 
 .information__top {
@@ -456,6 +471,7 @@ img {
 .information__card-content {
   width: 100%;
   max-width: 371px;
+  margin-right: 71px;
 }
 
 .information__card-content-heading {
@@ -478,7 +494,6 @@ img {
   font-size: 16px;
   line-height: 24px;
 }
-
 
 /* CTA */
 .cta {
@@ -507,26 +522,19 @@ img {
   line-height: 56px;
   color: var(--white-color);
 }
+
 .form {
   position: relative;
 }
 
 .input {
-  width: 100%;
   max-width: 433px;
-  padding-top: 21px;
-  padding-left: 38px;
-  padding-bottom: 20px;
-  box-shadow: inset -2.40556px -2.40556px 4.81111px rgba(255, 255, 255, 0.5), inset 2.40556px 2.40556px 4.81111px rgba(170, 170, 204, 0.25), inset 6.01389px 6.01389px 12.0278px rgba(170, 170, 204, 0.5), inset -6.01389px -6.01389px 12.0278px #FFFFFF;
-  border-radius: 48.1111px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28.1377px;
-  line-height: 35px;
-  display: flex;
-  align-items: center;
-  color: #C3C6CB;
+  width: 100%;
+  font-size: 28px;
+  line-height: 125%;
+  padding: 21px 75px 21px 38px;
+  border: none;
+  border-radius: 48px;
 }
 
 .form__img {
@@ -542,10 +550,6 @@ img {
 /* OFFERS */
 .offers {
   padding-bottom: 130px;
-}
-
-.offers__container {
-
 }
 
 .offers__heading {
@@ -576,7 +580,7 @@ img {
   max-width: 689px;
   border-radius: 21px;
   padding: 36px 46px 24px;
-  background-color: #e5e5e5;
+  background-color: rgba(78, 78, 78, 0.05);;
   margin-bottom: 60px;
 }
 
@@ -623,36 +627,32 @@ img {
 
 
 /* ASIGURARE */
-.asigurare {
-}
-
 .new-container {
   width: 100%;
-  max-width: 1810px;
+  max-width: 1850px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-bottom: 172px; */
   margin-bottom: 172px;
-  border-radius: 25px 25.1389px 25.1389px 25px;
-  background-color: #f5f5f5;
 }
 
 .asigurare__wrapper {
   position: relative;
+  display: flex;
   width: 100%;
   max-width: 1370px;
   padding-top: 142px;
   padding-left: 161px;
-  padding-bottom: 237px;
+  padding-bottom: 172px;
+  background-color: #f5f5f5;
+  border-radius: 25px 25.1389px 25.1389px 25px;
 }
-
 
 .asigurare__content {
   width: 100%;
   max-width: 744px;
-
+  margin-right: 32px;
 }
 
 .asigurare__heading {
@@ -667,6 +667,7 @@ img {
   letter-spacing: -1.17042px;
   color: var(--heading-color);
 }
+
 .asigurare__text {
   padding: 0;
   margin: 0;
@@ -680,9 +681,8 @@ img {
 }
 
 .asigurare__wrapper-img {
-  position: absolute;
-  top: 116px;
-  right: -31%;
+  margin-top: 10px;
+  margin-right: -439px;
   width: 872px;
   height: 532px;
   display: flex;
@@ -702,9 +702,6 @@ img {
 /* SITE-FOOTER */
 .site-footer {
   background-color: #272D4E;
-}
-.site-footer__container {
-
 }
 
 .site-footer__top {
@@ -748,6 +745,20 @@ img {
 
 .visa__wrapper {
   margin-left: auto;
+  display: flex;
+}
+
+.mastercard__img {
+  margin-right: 75px;
+  display: block;
+  width: 66px;
+  height: 44px;
+}
+
+.visa__img {
+  display: block;
+  width: 59px;
+  height: 46px;
 }
 
 .site-footer__text {
