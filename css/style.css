@@ -118,6 +118,13 @@ img {
   overflow: hidden;
 }
 
+.wrapper {
+  background-color: var(--light-gray);
+  background-image: url(../img/hero-bg.svg), linear-gradient(212.6deg, #FFFFFF 3.87%, rgba(255, 255, 255, 0) 45.48%);
+  background-position: calc(50% + 400px) -140px;
+  padding-bottom: 190px;
+  background-repeat: no-repeat;
+}
 
 /* SITE-HEADER */
 .site-header {
